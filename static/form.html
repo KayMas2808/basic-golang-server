@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Form</title>
-    </head>
-    <body>
-        <div>
-            <form method="POST" action="/form">
-                <label>Name</label><input name="name" type="text" value=""/>
-                <label>Address</label><input name="address" type="text" value=""/>
-                <input type="submit" value="submit"/>
-            </form>
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <h1 align = "center">Submit Your Information</h1>
+
+    <form method="POST" action="/form">
+        <div align = "center">
+            <label for="name">Name:</label>
+            <input id="name" name="name" type="text" placeholder="Enter your name" required /><br><br>
         </div>
-    </body>
+
+        <div align = "center">
+            <label for="address">Address:</label>
+            <input id="address" name="address" type="text" placeholder="Enter your address" required /><br><br>
+        </div>
+
+        <div align = "center">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
 </html>
