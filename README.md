@@ -1,4 +1,3 @@
-# README.md
 ### Project: Basic Form Handling in Go
 ```md
 # Basic Go Web Server
